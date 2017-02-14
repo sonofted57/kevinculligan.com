@@ -114,7 +114,7 @@ form input{
 	border: 0px;
 	border-radius: 1px;
 	height: 2.2em;
-	width: 22em;
+	width: 20em;
 	text-align: center;
 	outline: none;
 	margin-bottom: 5px;
@@ -125,30 +125,29 @@ form input{
 form input#email {
 	color: white;
 	background: none;
-	box-shadow: 0px 0px 3px #eeeeee;
-	-webkit-transition-duration: 1s;
-	-moz-transition-duration: 1s;
-	-o-transition-duration: 1s;
-	transition-duration: 1s;
+	border: 1px solid white;
 }
 form input#email:hover {
 	box-shadow: 0px 0px 5px #ffffff;
 }
 form input[type="submit"] {
-	background: #e6567a;
-	border: 0px;
-	width: 120px;
+	background: none;
+	border: 1px solid white;
 	color: white;
 	cursor: pointer;
-	box-shadow: 0px 0px 3px #eeeeee;
+	text-transform:uppercase;
+	letter-spacing: .15em;
 	-webkit-transition-duration: 1s;
 	-moz-transition-duration: 1s;
 	-o-transition-duration: 1s;
 	transition-duration: 1s;
+	width:15em;
+	font-weight:500;
+	padding: 0;
 }
 form input[type="submit"]:hover {
-	background: #e25074;
-	box-shadow: 0px 0px 5px #eeeeee;
+	background: #666666;
+
 }
 
 .form-note {
@@ -192,15 +191,10 @@ section .services li div {
 	font-size: 1em;
 	text-align: center;
 	line-height: 55px;
-	border: 1px solid white;
-	transition: all 0.5s ease;
-	border-radius: 100px;
 }
 
 section .services li div:hover {
-	transform: rotate(360deg);
-	-ms-transform: rotate(360deg);
-	-webkit-transform: rotate(360deg);
+	
 }
 
 section .services li .caption {
@@ -294,11 +288,11 @@ section .services li .caption {
 @media (max-width: 767px) {
 	.navbar-collapse { text-align: left; }
 	.container { margin: 0; padding: 3px;}
-	#main { margin: 50% 0 0 0; padding: 0;}
+	#main { margin: 35% 0 0 0; padding: 0;}
 	form input[type="email"] { width: 17em; }
 }
 @media (max-width: 486px) {
-		#main { margin: 50% 0 0 0; padding: 0;}
+		#main { margin: 35% 0 0 0; padding: 0;}
 	form input[type="email"]{ width: 95%; }
 	form input[type="submit"] { width: 95%; }
 }
@@ -341,9 +335,9 @@ section .services li .caption {
 .social-network { padding: 60px 0 58px 0; color: #4b4b4b; }
 .social-network .fa {width: 25px; text-align: center; }
 .social-network a { color: #4b4b4b; padding: 10px; }
-.social-network #facebook a { color: #3b5998; }
+.social-network #instagram a { color: #3b5998; }
 .social-network #twitter a { color: #48a4ea; }
-.social-network #google a { color: #cc181e; }
+.social-network #youtube a { color: #cc181e; }
 .social-network #linkedin a { color: #1b85bd; }
 
 .background-color #about { color: #4b4b4b; background: #fcd664; padding: 80px 0 78px 0; }

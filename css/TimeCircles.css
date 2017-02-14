@@ -3,18 +3,18 @@
     This is in order to allow us to set the size of
     the text relative to the size of the circles
     and the element they inhabit.
-    
+
     Time circles was fully programmed and designed
     by Wim Barelds
-    
+
     So long as you do not remove this message, you
     are free to use this on your website. However
     please do not redistribute without being given
     direct permission from the author
-    
+
     Contact me at: Wim.Barelds@GMail.com
     Version: 1.0, 2013/07/25
-    
+
     Todo:
         jQuery plugin
             [html property] data-ref-date="yyyy/mm/dd hh:mm:ss"
@@ -53,7 +53,7 @@
     padding: 0px;
     text-align: center;
     text-transform: uppercase;
-	font-weight: 100;
+	  font-weight: 100;
 }
 
 /**
@@ -64,6 +64,6 @@
     width: 100%;
     text-align: center;
     font-size: 400%;
-	font-weight: 100;
+	 font-weight: 100;
     margin-top: 0.5em;
 }
